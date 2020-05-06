@@ -1,0 +1,147 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  color: #66BFBF;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.6rem;
+  margin-top: 50px auto 0 auto;
+}
+
+h2{
+  color: #66BFBF;
+  font-family: 'Lemonada', cursive;
+  font-size: 2.5rem;
+  padding: 10px;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Lemonada', cursive;
+}
+
+p{
+  line-height: 2;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.fullstack{
+  text-decoration: underline;
+}
+
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.circular{
+  border-radius: 100%;
+}
+
+a{
+  color: #11999E;
+  padding: 30px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.normal{
+  font-weight: normal;
+  text-align: center;
+
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.developing-img{
+  float: left;
+  margin: 30px;
+  width: 25%;
+}
+
+.programming-img{
+  float: right;
+  margin: 30px;
+  width: 25%;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.footer-description{
+  color: #EAF6F6;
+  padding: 20px 0;
+  font-size: 0.75rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #11CDD4;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999999;
+}
+
+.button:hover {
+  background-color: #30E3CB;
+}
+
+.button:active {
+  background-color: #2BC48D;
+  box-shadow: 0 5px #000000;
+  transform: translateY(4px);
+}
